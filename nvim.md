@@ -28,6 +28,7 @@
 ## git
 
 - `<leader>gs`     : **G**it **S**tatus
+- `<leader>gb`     : **G**it **B**lame
 
 
 ## File & Buffers
