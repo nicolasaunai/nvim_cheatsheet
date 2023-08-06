@@ -25,6 +25,10 @@
 - `<leader>sg`     : fuzzy **S**earch **G**rep in workspace
 
 
+## git
+
+- `<leader>gs`     : **G**it **S**tatus
+
 
 ## File & Buffers
 
@@ -64,3 +68,22 @@
 ## Help
 - `<leader>sh`     : fuzzy **S**earch **H**help
 - `<leader>sd`     : **S**earch in **D**iagnostics
+
+
+
+
+## Mason
+
+- `:Mason`         : Run Mason to install/uninstall LSP, DAP, Linters, Formatters
+- `:MasonUpdate`   : Update all managed registries
+
+
+## Packer
+
+- `source ~/.config/nvim/lua/nico/packer.lua`   : source the packer config
+- `:PackerSync`     : Perform `PackerUpdate` and then `PackerCompile`
+- `PackerCompile`   : Regenerate compiled loader file
+- `PackerClean`     : Remove any disabled or unused plugins
+- `PackerUpdate`    : Clean, then update and install plugins
+
+
