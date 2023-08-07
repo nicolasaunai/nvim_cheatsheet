@@ -8,7 +8,6 @@
 - `gD`             : **G**oto **D**eclaration
 - `gr`             : list **R**eferences of word under cursor
 - `<leader>D`      : type **D**efinition of the variable under cursor
-- 
 
 
 ## Types informations
@@ -29,6 +28,8 @@
 
 - `<leader>gs`     : **G**it **S**tatus
 - `<leader>gb`     : **G**it **B**lame
+- `<leader>lgc`    : **L**ist **G**it **C**ommits
+- `<leader>lgb`    : **L**ist **G**it **B**ranches
 
 
 ## File & Buffers
