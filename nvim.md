@@ -11,9 +11,41 @@
 
 
 ## Types informations
+
 - `<leader>D`      : type **D**efinition of the variable under cursor
 - `K`              : hover documentation
 
+
+## Completion
+
+- `<Ctrl-y>        : Confirms selection.
+- `<Ctrl-e>        : Cancel the completion.
+- `<Down>`         : Navigate to the next item on the list.
+- `<Up>`           : Navigate to previous item on the list.
+- `<Ctrl-n>`       : Go to the next item in the completion menu, or trigger completion menu.
+- `<Ctrl-p>`       : Go to the previous item in the completion menu, or trigger completion menu.
+- `<Ctrl-d>`       : Scroll down in the item's documentation.
+- `<Ctrl-u>`       : Scroll up in the item's documentation.
+- `<Ctrl-f>`       : Go to the next placeholder in the snippet.
+- `<Ctrl-b>`       : Go to the previous placeholder in the snippet.
+- `<Tab>`          : Enables completion when the cursor is inside a word. If the completion menu is visible it will navigate to the next item in the list.
+- `<Shift-Tab>`    : When the completion menu is visible navigate to the previous item in the list.
+
+
+## NVimTree
+
+- `f`              : Fuzzy file filter
+- `F`              : close the file filter
+- `<C-k>`          : display file informations
+- `H`              : show/hide **H**idden files (.files)
+- `E`              : **E**xpand all
+- `W`              : Collapse all
+- `r`              : **R**ename the file under cursor
+- `a`              : create file or folder
+- `d`              : **D**elete file or folder under cursor
+
+ 
+ 
 
 
 ## Symbols
